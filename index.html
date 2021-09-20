@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Better Sleep</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <img class="welcome-header__logo" src="png/logo.png" />
+      <h1 class="welcome-header__logotext">드르렁</h1>
+      <h1 class="welcome-header__title">잠들기 어려운 밤, 드르렁과 함께해요</h1>
+      <p class="welcome-header__text">log in with your email or phone number</p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        required
+        type="email"
+        placeholder="Email or phone number"
+      />
+      <input
+        password="passowrd"
+        minlength="8"
+        required
+        type="password"
+        placeholder="Password"
+      />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Account or Password</a>
+    </form>
+    <div id="no-mobile">
+      <img src="png/logo-white.png" />
+      <div>YOUR SCREEN IS TOO BIG</div>
+      <div>모바일로 확인해주세요</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
