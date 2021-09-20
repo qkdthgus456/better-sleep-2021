@@ -14,13 +14,13 @@
 .welcome-header__logotext {
   font-family: score-bold;
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   color: var(--yellow);
 }
 
 .welcome-header__title {
   font-family: score;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   opacity: 0.8;
   font-size: 20px;
   font-size: 20px;
